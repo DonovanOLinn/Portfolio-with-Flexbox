@@ -1,0 +1,231 @@
+
+
+
+
+/* Navigation Bar Stuff: */
+
+
+/*First lets start with changing the navigation bar. DO a color*/
+.main-nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 2px solid green; 
+    border-style: none none solid none;
+    background-color: green 50%;
+    
+}
+
+nav li{
+    margin: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.nav-portfolio-name{
+    margin-right: 70%;
+    font-size: 28px;
+    color: green
+}
+
+
+
+/* This is everything for my intro area */
+
+.INTRODUCTION{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    border: 1px dotted gray;
+    border-style: none none solid none;
+    
+}
+
+#my-picture{
+   /* border: 10px dotted green; */
+    width:25%;
+    border-radius: 50%;
+}
+
+.HERO-TEXT{
+    flex-flow: column;
+    padding-right: 20%;
+    margin-left: 10%;
+}
+
+#INTRODUCTION-HELLO{
+    /*border: 5px dotted cyan;*/
+    color: green;
+    font-size: 60px;
+
+}
+
+#INTRODUCTION-NAME{
+    /*border: 5px dotted gray;*/
+    margin-right: 20%;
+    font-size: 30px;
+}
+
+/* This is for the first article */
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    border-style: none none solid none;
+}
+
+#article1-aboutme {
+    /*border: 10px dotted black;*/
+    align-content: center;
+    color: green;
+    font-size: 45px;
+    margin-left: 20%;
+    margin-right:20%
+}
+
+.article1-body{
+    /*border: 10px dotted purple;*/
+    display: flex;
+    flex-direction: row;
+}
+
+#article1-picture{
+    /*border: 10px dotted pink;*/
+    width:30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+
+#article1-description{
+   /*border: 10px dotted cyan;*/
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%
+}
+
+
+/* This is all about article 2 */
+
+.article2{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted gray;
+    border-style: none none solid none;
+    margin-top: 50px;
+
+}
+
+#article2-myhobbies {
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 45px;
+
+}
+
+.article2-body{
+    /*border: 10px dotted purple;*/
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#article2-picture{
+
+    width:30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 15%;
+}
+
+#article2-description{
+
+    font-size: 30px;
+    margin-right: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%
+}
+
+
+/* This is for the interesting facts and contact me */
+
+.article3{
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted gray;
+    border-style: none none solid none;
+    margin-top: 50px;
+
+}
+
+.article3-titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.article3-body{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.article3-submission{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#article3-description1{
+    font-size: 30px;
+    margin-bottom: 10%
+}
+
+#article3-description2{
+    /*border: 10px dotted green;*/
+    font-size: 30px;
+    margin-bottom: 10%
+}
+
+#article3-description3{
+    /*border: 10px dotted orange;*/
+    font-size: 30px;
+    margin-bottom: 10%
+}
+
+
+
+textarea, input{
+    background-color:black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+form{
+    margin-top:20px;
+
+}
